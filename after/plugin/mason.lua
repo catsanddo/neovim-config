@@ -1,4 +1,3 @@
---[[
 -- Set up nvim-cmp.
 local cmp = require'cmp'
 
@@ -45,6 +44,7 @@ cmp.setup.cmdline(':', {
         { name = 'cmdline' }
     })
 })
+--[[
 ]]--
 
 -- MY STUFF
