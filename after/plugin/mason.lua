@@ -27,6 +27,7 @@ cmp.setup({
     })
 })
 
+--[[
 -- Use buffer source for `/` and `?` (if you enabled `native_menu`, this won't work anymore).
 cmp.setup.cmdline({ '/', '?' }, {
     mapping = cmp.mapping.preset.cmdline(),
@@ -44,7 +45,6 @@ cmp.setup.cmdline(':', {
         { name = 'cmdline' }
     })
 })
---[[
 ]]--
 
 -- MY STUFF
@@ -55,7 +55,7 @@ require("mason-lspconfig").setup {
 
 -- After setting up mason-lspconfig you may set up servers via lspconfig
 local lspconfig = require("lspconfig")
-lspconfig.ols.setup {}
+--lspconfig.ols.setup {}
 
 local lsp_capabilities = require('cmp_nvim_lsp').default_capabilities()
 

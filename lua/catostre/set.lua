@@ -16,6 +16,8 @@ vim.opt.swapfile = false
 vim.opt.backup = false
 vim.opt.undofile = false
 
+vim.opt.autochdir = true
+
 vim.opt.ic = true
 vim.opt.hlsearch = false
 vim.opt.incsearch = true
